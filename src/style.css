@@ -2,6 +2,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #121420;
+  background-image: url("./images/bohdan-d-fh6o-XkVQG8-unsplash.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.836));
 }
 
 :root {
@@ -424,7 +430,8 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  background-image: url(./images/logo/Vector.png), url(./images/logo/Vector-1.png);
+  background-image: url(./images/logo/Vector.png),
+    url(./images/logo/Vector-1.png);
   background-repeat: no-repeat;
   background-position: bottom right 30px, top 10px left;
   z-index: -1;
